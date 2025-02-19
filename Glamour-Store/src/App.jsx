@@ -4,9 +4,10 @@ import Footer from './Components/Footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Home  from './Pages/Home/Home'
 import AllCategories from './Pages/Categories/AllCategories'
-import Women from './Pages/Categories/Women'
-import Men from './Pages/Categories/Men'
-import Kids from './Pages/Categories/Kids'
+// import Women from './Pages/Categories/Women'
+// import Men from './Pages/Categories/Men'
+// import Kids from './Pages/Categories/Kids'
+import Contact from './Pages/Contact/Contact'
 
 
 const App = () => {
@@ -17,9 +18,7 @@ const App = () => {
 
         <Route path='/' element={<Home/>}/>
         <Route path='/categories' element={<AllCategories/>}/>
-        <Route path='women' element={<Women/>}/>
-        <Route path='men' element={<Men/>}/>
-        <Route path='kids' element={<Kids/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       
      </Routes>
      <Footer/>

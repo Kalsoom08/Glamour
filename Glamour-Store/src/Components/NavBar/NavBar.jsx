@@ -12,9 +12,10 @@ const NavBar = () => {
   const NavItems = [
     { label: 'Home', url: '/' },
     { label: 'Categories', url: '/categories'},
-    { label: "Women's", url: '/women'},
-    { label: "Men's", url: '/men'},
-    { label: "Kid's", url: '/kids'},
+    { label: 'Contact', url: '/contact'}
+    // { label: "Women's", url: '/women'},
+    // { label: "Men's", url: '/men'},
+    // { label: "Kid's", url: '/kids'},
   ];
 
   return (
