@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai"; 
 
+
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
   
@@ -12,7 +13,8 @@ const NavBar = () => {
   const NavItems = [
     { label: 'Home', url: '/' },
     { label: 'Categories', url: '/categories'},
-    { label: 'Contact', url: '/contact'}
+    { label: 'Contact', url: '/contact'},
+    { label: 'SignUp', url: '/signup'}
     // { label: "Women's", url: '/women'},
     // { label: "Men's", url: '/men'},
     // { label: "Kid's", url: '/kids'},
