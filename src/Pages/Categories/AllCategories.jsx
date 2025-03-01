@@ -20,7 +20,7 @@ const AllCategories = () => {
   }, [dispatch]);
 
   return (
-    <div className="w-full p-5 md:p-10">
+    <div  className="w-full p-5 md:p-10">
       {loading && <h2 className="text-xl font-semibold text-gray-700">Loading...</h2>}
       {message && <p className="text-red-500">Error: {message}</p>}
 

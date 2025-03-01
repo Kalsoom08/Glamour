@@ -9,6 +9,7 @@ import AllCategories from './Pages/Categories/AllCategories'
 // import Kids from './Pages/Categories/Kids'
 import Contact from './Pages/Contact/Contact'
 import SignUp from './Pages/SignUp/SignUp'
+import Login from './Pages/Login/Login';
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
         <Route path='/categories' element={<AllCategories/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/signup' element={<SignUp/>}/>
+        <Route path='/login' element={<Login/>}/>
+
       
      </Routes>
      <Footer/>
